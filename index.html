@@ -121,7 +121,7 @@
       #slidearea{
         width:100%;
         height:600px;      
-        background-image:url('bg.jpg');
+        background-image:url('img/course/webdesign.jpg');
         background-position:center;
         background-attachment:fixed;
         background-repeat: no-repeat;
@@ -178,6 +178,51 @@
      #servicedata h2{
         color:#916037;       
      }
+
+       #servicecontainer{
+      width:900px;
+      height:300px;
+      margin:auto auto;
+      margin-top: 50px;
+      padding:25px;
+   
+     }
+     .servicebox{
+        width:250px;
+        height:250px;
+        float:left; 
+        margin:25px; 
+        position:relative;
+       }
+      .detail{
+        width:200px;
+        background:rgba(0,0,0,0.4);
+        color:white;
+        text-align:center;
+        position: absolute;
+        bottom:0;    
+        padding:10px 25px;   
+        display:none;
+        font-weight:bold;
+        
+        }
+        
+      .servicebox:hover .detail{
+        display:block;
+        
+      }
+      
+      .servicebox:hover{
+        transform:scale(1.1,1.1);
+         
+         
+       }
+       
+      .servicebox img{
+        width:250px;
+        height:250px;
+        border:solid 1px #FFCC7E;
+      }
      
      #coursearea{
        width:100%;
@@ -653,6 +698,21 @@
      <div class="subhead2"> 
       <h2>Services</h2> 
      </div> 
+     
+    <div id="servicecontainer">
+      <div class="servicebox">
+       <img src="img/course/webdesign.jpg" />
+       <div class="detail">Web Designing</div>
+      </div>
+     <div class="servicebox">
+       <img src="img/course/webdev.jpg" />
+       <div class="detail">Web Development</div>
+     </div>
+     <div class="servicebox">
+       <img src="img/course/msoffice.jpg" />
+        <div class="detail">Training and Coaching</div>
+     </div>
+     </div>
     </div> 
    </div> 
    <div id="coursearea"> 
