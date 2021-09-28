@@ -508,7 +508,60 @@
      #contactdata h2{
        color:#916037;
      }
+       #maparea{
+     width:50%;
+     height:300px;
+     float:left;
+     margin-top:50px;
+     border-right: solid 2px #5C4533;
+     }
      
+     #contactinfo{
+      width:49%;
+      height:300px;
+      float:left;
+      margin-top:50px;
+     }
+     .contactdetail{
+       width:80%;
+       height:60px;
+       margin: 20px 10%;
+       color:white;
+     }
+     
+     #formarea{
+       width:100%;
+       height:400px;
+       float:left;
+       text-align:center;
+     
+     }
+     #formarea h3{
+       width:20%;
+       color:#916037;
+       margin: 30px auto;
+       border-bottom:solid 2px #5C4533;
+     }
+     #formarea input, #formarea textarea{
+       width:90%;      
+       background : #232121;
+       color:white;
+       border: solid 1px #FFCC7E;
+       border-radius:20px;
+       text-align:center;
+       margin: 10px;
+       padding: 10px 30px;
+       }
+     
+      #formarea button{
+        width:40%;
+        padding: 10px 30px;
+        background-color:#FFCC7E;
+        border: solid 1px #5C4533;
+        border-radius:20px;
+        margin:10px;
+        }
+
      #footerarea{
        width:100%;
        height:600px;
@@ -781,6 +834,30 @@
      <div class="subhead1"> 
       <h2>Contact Details</h2> 
      </div> 
+      <div id="maparea">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.236986222351!2d86.24780131496357!3d22.79368098506948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDQ3JzM3LjMiTiA4NsKwMTQnNjAuMCJF!5e0!3m2!1sen!2sin!4v1632586564479!5m2!1sen!2sin" width="90%" height="300px" style="border:0;" allowfullscreen loading="lazy"></iframe>
+     </div> 
+     <div id="contactinfo"> 
+      <div class="contactdetail"> 
+       <b>Address : </b> HNo.19, Zone Number 3, Birsanagar, Jamshedpur, East Singhbhum, Jharkhand, India-831017 
+      </div> 
+      <div class="contactdetail"> 
+       <b>Phone Number : </b>+918235520566 
+      </div> 
+      <div class="contactdetail"> 
+       <b>Email : </b>iamabhishekjaiswal01@gmail.com 
+      </div> 
+     </div> 
+     <div id="formarea">
+       <form action="" method="post">
+          <h3>Write Us</h4>
+          <input type="text" name="name" placeholder="Full Name" required/>
+          <input type="email" name="email" placeholder="E-mail" required/>
+          <input type="number" name="phone" placeholder="Contact Number" />
+          <textarea placeholder="message" name="message" row="6"></textarea>
+          <button type="submit"> Submit</button> 
+       </form>  
+     </div>
     </div> 
    </div> 
    <div id="footerarea"> 
